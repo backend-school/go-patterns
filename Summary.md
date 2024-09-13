@@ -24,18 +24,18 @@
 
 ### Behavioral
 
-| Number | Name                    | Summary                                        | Examples                | Comment                     |
-| ------ | ----------------------- | ---------------------------------------------- | ----------------------- | --------------------------- |
-| 1      | Template                | Create a reusable part and import to many inst | Go Templates            |                             |
-| 2      | State                   | Implement FSM for complex state transitions    | FSM                     |                             |
-| 3      | Strategy                | Focus on changing algorithms                   | io.Writer, io.Reader    |                             |
-| 4      | Command                 | Container with a single action                 | UI button               | Similar to Strategy         |
-| 5      | Chain of Responsibility | Task seggregation and a SRP                    | HTTP/GRPS middleware    |                             |
-| 6      | Memento                 | An object to remind about something            | Timeout, Watchdog timer | Memento, Producer, Consumer |
-| 7      | Interpreter             | Create a domain specific lang to ease a task   | SQL                     |                             |
-| 8      | Mediator                | Impl loose coupling between algorithms         | Kafka, NATS, Redis      |                             |
-| 9      | Observer                | Subscribe for a particular event               | One-to-many compute     |                             |
-| 10     | Visitor                 | Control an outside object or algorithm         | io.Writer               |                             |
+| Number | Name                    | Summary                                        | Examples             | Comment                     |
+| ------ | ----------------------- | ---------------------------------------------- | -------------------- | --------------------------- |
+| 1      | Template                | Create a reusable part and import to many inst | Go Templates         |                             |
+| 2      | State                   | Implement FSM for complex state transitions    | FSM                  |                             |
+| 3      | Strategy                | Focus on changing algorithms                   | io.Writer, io.Reader |                             |
+| 4      | Command                 | Container with a single action                 | UI button            | Similar to Strategy         |
+| 5      | Chain of Responsibility | Task seggregation and a SRP                    | HTTP/GRPS middleware |                             |
+| 6      | Memento                 | An object that saves its state over time       | Snapshots            | Memento, Producer, Consumer |
+| 7      | Interpreter             | Create a domain specific lang to ease a task   | SQL                  |                             |
+| 8      | Mediator                | Impl loose coupling between algorithms         | Kafka, NATS, Redis   |                             |
+| 9      | Observer                | Subscribe for a particular event               | One-to-many compute  |                             |
+| 10     | Visitor                 | Control an outside object or algorithm         | io.Writer            |                             |
 
 ### Concurrent and event driven
 
